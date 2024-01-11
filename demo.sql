@@ -8,3 +8,13 @@ SELECT first_name, last_name FROM players;
 -- .headers on
 -- .read ______
 -- .quit
+
+SELECT _______ FROM ______
+INNER JOIN _______ ON _________
+WHERE _______
+AND ________
+GROUP BY __________
+ORDER BY _________
+LIMIT _____;
+
+COUNT(*), AVG(column), SUM(column), MIN(column), MAX(column)
