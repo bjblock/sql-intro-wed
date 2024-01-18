@@ -6,6 +6,10 @@ WHERE year >= 1960
 GROUP BY year
 ORDER BY MAX(wins) DESC;
 
+SELECT name, wins FROM teams
+WHERE year >= 1960
+ORDER BY wins ASC;
+
 -- Expected result: 61 rows, starting with
 --
 -- +------+-------------------------------+-----------+
